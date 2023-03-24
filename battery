@@ -1,32 +1,39 @@
-stage Cell Manufacturing
-    process "Electrode Production"
-        desc "Cathode and anode materials are coated onto metal foils, which are then dried, calendared, and slit into the required dimensions."
-    end
-    process "Cell Assembly"
-        desc "The coated foils are wound together with a separator to form a cell 'jelly roll.' This assembly is then inserted into a cell casing, filled with electrolyte, and sealed."
-    end
-    process "Formation and Testing"
-        desc "Cells undergo formation and testing processes to ensure quality and performance."
-    end
-end
-
-stage Module Assembly
-    process "Cell Integration"
-        desc "Manufactured cells are assembled into modules, which serve as the building blocks of the battery pack. Advanced automation and robotics are used to ensure precise alignment, connection, and insulation of the cells within the module."
-    end
-    process "Cooling and Thermal Management"
-        desc "The module assembly process also includes the integration of cooling and thermal management systems to maintain optimal cell temperatures and prolong the battery's life."
-    end
-end
-
-stage Battery Pack Integration
-    process "Structural Components"
-        desc "Completed modules are combined to form a complete battery pack, which is designed to meet the specific energy, power, and range requirements of each Tesla vehicle model. Structural components, such as brackets and frames, are attached to the battery pack."
-    end
-    process "Electrical Systems"
-        desc "Electrical systems, such as fuses and circuit breakers, are connected to the battery pack."
-    end
-    process "Battery Management System"
-        desc "A battery management system is incorporated to monitor and control the pack's performance. The system ensures optimal cell balancing, charging, and discharging rates while safeguarding the pack against potential hazards, such as thermal runaway or short circuits."
-    end
-end
+<mxfile>
+  <diagram name="Battery Production" >
+    <mxGraphModel>
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="20" width="130" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="20" width="130" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="20" width="130" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="120" width="130" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="120" width="130" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="120" width="130" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="220" width="130" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="220" width="130" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" value="Battery Production" style="text;html=1;strokeColor=#000000;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="20" y="300" width="490" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="Cell Manufacturing" style="text;html=1;strokeColor=#ffffff;fillColor=#2471a3;" parent="1" vertex="1">
+          <mxGeometry x="20" y="0" width="130" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" value="Module Assembly" style="text;html=1;strokeColor=#ffffff;fillColor=#2471a3;" parent="1" vertex="1">
+          <mxGeometry x="200" y="0" width="130" height="20" as="geometry"/>
+        </mx
