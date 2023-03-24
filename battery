@@ -1,15 +1,11 @@
-st=>start: Start
-a=>operation: Cell Manufacturing
-b=>operation: Module Assembly
-c=>operation: Battery Pack Integration
-ap=>operation: Electrode Production
-ab=>operation: Cell Assembly
-at=>operation: Formation and Testing
-bi=>operation: Cell Integration
-ct=>operation: Cooling and Thermal Management
-sc=>operation: Structural Components
-es=>operation: Electrical Systems
-bm=>operation: Battery Management System
-e=>end: End
-
-st->a->ap->ab->at->b->bi->ct->c->sc->es->bm->e
+```mermaid
+graph LR;
+    A[Cell Manufacturing] --> B[Electrode Production];
+    A --> C[Cell Assembly];
+    A --> D[Formation and Testing];
+    C --> E[Cell Integration];
+    C --> F[Cooling and Thermal Management];
+    D --> G[Battery Pack Integration];
+    G --> H[Structural Components];
+    G --> I[Electrical Systems];
+    G --> J[Battery Management System];
